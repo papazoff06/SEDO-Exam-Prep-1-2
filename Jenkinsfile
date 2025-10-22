@@ -1,23 +1,8 @@
 pipeline {
     agent any
-    
+
     stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
-        stage('Setup .NET SDK') {
-            steps {
-                bat '''
-                    curl -L https://dot.net/v1/dotnet-install.ps1 -o dotnet-install.ps1
-                    powershell -ExecutionPolicy Bypass -File dotnet-install.ps1 -Version %DOTNET_VERSION% -InstallDir "%DOTNET_INSTALL_DIR%"
-                '''
-            }
-        }
-
-        stage('Restore') {
+        stage('Restore dependences') {
             steps {
                 bat 'dotnet restore'
             }
