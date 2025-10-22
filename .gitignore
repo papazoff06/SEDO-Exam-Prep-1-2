@@ -1,0 +1,117 @@
+## Ignore Visual Studio temporary files, build results, and user-generated files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored if you use PackageReference
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Project model & build result
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+
+# Templated configuration files
+appsettings.Development.json
+secrets.json
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+*.pidb
+*.sln.ide
+*.dotCover
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directory
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+# Local History for Rider
+.idea/.idea.LocalHistory/
+
+# OS generated files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.vsp
+*.vspx
+*.sap
+*.psess
+*.vspf
+
+# IIS Express
+.vs/
+*.vscode/
+
+# DotCover
+*.dotCover
+
+# User Secrets
+**/secrets.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# dotnet-watch
+**/node_modules/
